@@ -1,0 +1,39 @@
+Global Communication Tool
+WebClient for communication
+
+As it is asynchronous programming when two microservices are communicating with
+each other, then use webclient.
+To have nonblocking communication
+Can't microservices communicate directly? (they can)
+Error Handling Approach: 
+Staging Table
+
+Spring Boot Annotations: 
+So, basically annotations tell compiler meaning about the class a way to be
+treated. basically, it is used to create beans like we write @component on class
+to create a bean of it. ioc container will find it and add it in and whenever object of
+that class is needed, it will be provided from there. It also maintains lifecycle of those bean.
+
+If application fails to start due to component scanning exception, how you will handle it?
+This issue basically occurs when you have files outside the package?
+So, I'll make sure that file is.
+Package that is currently getting scanned. I'll also check ClassPath.
+
+Can add some attributes in EnableAutoConfiguration?
+Like I can exclude tom cat server to be started when I start spring boot application.
+
+
+Spring Boot Starter --> It consists of different dependencies that is needed to start
+our application. It also adds tom cat server, default server.
+
+If your project needs third library how would you add it?
+I can go to spring intializer and will select dependency from there and then go to
+explore option for checking it.
+
+We can change default tom cat server as well, (another server)
+
+
+Spring Boot @Profile Annotation, Like it is basically for having different 
+setups either for production or test environment. (Dev/Test)
+
+We can create different application properties file
